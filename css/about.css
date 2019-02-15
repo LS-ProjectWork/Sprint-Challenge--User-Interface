@@ -147,8 +147,28 @@ nav a {
 /* Bottom Content styles */
 .bottom-content .text-container {
     width: 100;
-    margin-left: 20px;
+    margin-left: 15px;
     padding-bottom: 20px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
