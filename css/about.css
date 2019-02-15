@@ -95,6 +95,51 @@ nav a {
     font-size: 14px;
 }
 
-.about-header-image {
+.header-image {
     margin-bottom: 25px;
+}
+
+/* Top content styles */
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 100;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Middle Content styles */
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 15px;
+    font-weight: bold;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    margin: auto 10px 50px 6px;
+}
+
+.middle-content h2 {
+    margin-top: 10px;
+}
+
+.middle-content .text-container button {
+    margin-top: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
 }
