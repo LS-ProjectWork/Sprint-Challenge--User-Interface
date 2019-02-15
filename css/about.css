@@ -143,3 +143,12 @@ nav a {
     font-weight: bold;
     padding: 5px 12px;
 }
+
+/* Bottom Content styles */
+.bottom-content .text-container {
+    width: 100;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
