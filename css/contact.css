@@ -70,3 +70,31 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Nav styles */
+.nav-section {
+    display: flex;
+    margin: 20px 0;
+	padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+    padding-right: 50px;    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-image {
+    margin-bottom: 25px;
+}
