@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+/* Nav Styles */
 .nav-section {
     display: flex;
     margin: 20px 0;
@@ -98,101 +99,61 @@ nav a {
     margin-bottom: 25px;
 }
 
+/* Top content styles */
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    width: 100;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
+/* Middle Content styles */
 .middle-content {
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 15px;
+    font-weight: bold;
+    justify-content: space-around;
     border-bottom: 1px dashed black;
+    margin: auto 10px 50px 6px;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    margin-top: 10px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content .text-container button {
+    margin-top: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#box1 {
-    background: teal;
-}
-
-#box2 {
-    background: gold;
-}
-
-#box3 {
-    background: cadetblue;
-}
-
-#box4 {
-    background: coral;
-}
-
-#box5 {
-    background: crimson;
-}
-
-#box6 {
-    background: forestgreen;
-}
-
-#box7 {
-    background: darkorchid;
-}
-
-#box8 {
-    background: hotpink;
-}
-
-#box9 {
-    background: indigo;
-}
-
-#box10 {
-    background: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
+/* Bottom Content styles */
 .bottom-content .text-container {
-    padding-right: 4%;
+    width: 100;
+    margin-left: 15px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
+/* Footer styles */
 footer {
     width: 100%;
     background: black;
